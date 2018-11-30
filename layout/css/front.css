@@ -1,0 +1,246 @@
+body{
+	 background:#f4f4f4;
+	 font-size:16px;
+	 text-decoration:capitalize;
+	 font-family: 'Indie Flower', cursive;
+	 transition:all .2s ease-in-out;
+}
+/* start Login Form */
+.navbar {
+    border-radius: 0px;
+		box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
+}
+.navbar>li>a{
+	padding:15px 12px;
+}
+a:hover , a:active{
+  text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover
+{
+  /*background-color:#4285f4;rgb(32, 206, 245);*/
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
+}
+.navbar-inverse{
+background-color:#fdfdfd;/*rgb(48, 199, 185);->rgb(241, 31, 178)*/
+border:none;
+box-shadow:2px 7px 20px rgba(0, 0, 0, 0.15);
+}
+.navbar-inverse .navbar-nav >li >a{
+
+    color: #5f6263;
+    padding: 15px;
+}
+.navbar-inverse .navbar-nav li .fa-graduation-cap{
+	color:#19bcfd;
+	font-size: 28px;
+}
+.dropdown-menu >li >a:focus{
+  background-color:#5f6263;
+  /*color:white;*/
+}
+.dropdown-menu{
+	min-width:108px;
+	font-size:12px;
+	left:0;
+
+}
+.dropdown-menu > li > a{
+	padding-left: 5px;
+}
+.navbar-inverse .navbar-brand {
+    color: #464242;
+}
+.btn-group.open .dropdown-toggle{
+	color:#59b9f9;
+}
+.test ul li a{
+  font-size:14px;
+}
+.test ul:after{
+  content=""; clear:both;
+  display:block;
+}
+.test ul li:hover >ul{
+  display:block;
+}
+.label-warning {
+    margin-left: -16px;
+    border-radius: 50px;
+}
+.fa-bell-o{
+	color:#f5631b;
+}
+.background {
+    background-color: #ddd;
+}
+.dropdown-menu{
+	min-width: 108px;
+	padding: 10px;
+	margin-top: 11px;
+}
+/* Start Header Page */
+.upper-bar{
+	padding: 5px;
+}
+.upper-bar .img-header{
+	width: 32px;
+	height: 32px;
+}
+.upper-bar .my-info span{
+	color: #5f6263;
+	font-size: 18px;
+}
+/* End Header Page */
+
+/*Start Login Page */
+.input-container{
+	position: relative;
+}
+.asterisk{
+	position: absolute;
+	font-size: 20px;
+	right: 10px;
+	top: 8px;
+	color: #D20707;
+}
+.login-page form{
+	max-width: 380px;
+	margin: auto;
+}
+.login-page form input{
+	margin-bottom: 10px;
+}
+.login-page [data-class='login'].selected{
+	color: #337ab7;
+}
+.login-page [data-class='signup'].selected{
+	color: #449d44;
+}
+.login-page h1{
+	color:#C0C0C0;
+}
+.login-page h1 span{
+	cursor: pointer;
+}
+.login-page .signup{
+	display: none;
+}
+/*End Login Page */
+
+/* Start Categories Page */
+.item-box{
+	position: relative;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+}
+.item-box .price-tag{
+	background-color: #B4B4B4;
+	position: absolute;
+	padding: 2px 10px;
+	left: 0px;
+	top: 10px;
+	font-size:15px;
+	font-weight: bold;
+	color: #FFF;
+}
+.item-box img{
+	width:100%;
+}
+.item-box p{
+		font-size:15px;
+}
+/* End Categories Page */
+
+
+/*Start Profile Page */
+.information{
+	margin-top: 20px;
+}
+.information ul{
+	padding: 0;
+	margin: 0;
+}
+.information ul li{
+	padding: 10px;
+}
+.information ul li:nth-child(odd){
+	background-color: #EEE;
+}
+.information ul li span{
+	display: inline-block;
+	width: 120px;
+}
+.information .btn{
+	margin-top: 20px;
+}
+.thumbnail .date{
+	float: right;
+	font-size: 13px;
+	color: #AAA;
+	font-weight: bold;
+}
+.btn-danger , .btn-info{
+	font-size: 9px;
+  padding: 3px;
+  margin: 0;
+}
+/*End Profile Page */
+
+/*Start items page */
+.item-info h3{
+	padding: 10px;
+	margin: 0;
+}
+.item-info p{
+	padding: 10px;
+}
+.item-info ul li{
+	padding: 10px 0;
+}
+.item-info ul li:nth-child(odd){
+	background-color: #e8e8e8;
+}
+.item-info ul li span{
+	display: inline-block;
+	width: 120px;
+	padding-left: 7px;
+}
+.comment-box{
+	margin-bottom: 20px;
+}
+.comment-box img{
+	max-width: 100px;
+	margin-bottom: 10px;
+}
+.comment-box .lead{
+	background-color: #e0e0e0;
+	position: relative;
+	padding: 10px;
+	margin-top: 3%;
+}
+.comment-box .lead:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border:15px solid red;
+	position: absolute;
+	left :-28px;
+	top: 20%;
+	border-color: transparent #e0e0e0 transparent transparent;
+
+}
+.custom-hr{
+	border-top: 1px solid #c9c9c9;
+}
+.add-comment h3{
+	margin: 0 0 10px;
+}
+.add-comment textarea{
+	width: 500px;
+	height: 120px;
+	display: block;
+	margin-bottom: 10px;
+}
